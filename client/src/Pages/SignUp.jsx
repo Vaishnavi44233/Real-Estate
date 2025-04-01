@@ -32,13 +32,13 @@ export default function SignUp() {
       }
       setLoading(false);
       setError(null);
-      Navigate('/sign-in');
+      navigate('/sign-in');
     } 
     catch(error){
       setLoading(false);
       setError(error.message);
     }
-  };
+  }; 
   return (
     <div className='p-3 max-w-lg mx-auto'>
       <h1 className='text-3xl text-center font-semibold my-7'>Sign Up</h1>
