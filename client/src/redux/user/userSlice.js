@@ -69,7 +69,7 @@ export const {
   updateUserFailure,
   updateUserSuccess,
   updateUserStart,
-  eleteUserFailure,
+  deleteUserFailure,
   deleteUserSuccess,
   deleteUserStart,
   signOutUserFailure,
